@@ -22,5 +22,8 @@ public class ClientUsage {
 
         System.out.println("clientOneString.equals(clientTwoString): " + clientOneString.equals(clientTwoString));// sunt egale ca si continut
         System.out.println("clientOneString == clientTwoString : " + (clientOneString == clientTwoString));// sunt instate a doua obiecte diferite
+        //Boolean a = clientOne.toString().intern() == clientTwo.toString().intern();
+        //System.out.println(a);
+
     }
 }
