@@ -27,6 +27,19 @@ public class StringInmutability {
         //pt a pute alimina spatiile facem ca mai sus =ori asignam ori afisam direct
         System.out.println(stringSix.trim());
 
+        stringOne = "This is Java Language!";
+        System.out.println(stringOne.substring(2)); //printeaza elementele stringului de la pozitia 2(elem. 3)
+        System.out.println(stringOne.substring(2, 6)); //pt ca strigOne este inmtabil el nu se modifica mai sus,va ramane la fel de fiecare data cand il apelam
+        // se creaza un obiect String nou de fiecare data cand folosim stringOne
+        System.out.println(stringOne);// test de inmutabilitate
+        System.out.println(stringOne.replace('i', 'z')); //Inlocuim caracterul i cu z
+        System.out.println(stringOne.replace("is", "as")); //Inlocuim o secventa de caractere
+        System.out.println(stringOne.charAt(8)); //afiseaza caracterul de la pozitia 8
+        System.out.println(stringOne.concat(stringFive)); // concat inlocuieste + intre cele 2 stringuri ai afiseaza ce doua stringuri
+        System.out.println(stringOne.indexOf('L')); //cauta in strigul stringOne si afiseaza prima pozitie unde a gasit caracterul dorit
+        System.out.println(stringOne.length()); // afiseaza lungimea stringului
+        System.out.println(stringOne.startsWith("Jav")); // verifica daca stringul incepe cu Jav adevarat sau false
+        System.out.println(stringOne.endsWith("e!")); // verifica daca stringul se ermina cu e!
 
     }
 }
