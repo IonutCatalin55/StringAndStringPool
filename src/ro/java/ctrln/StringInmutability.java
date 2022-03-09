@@ -26,5 +26,7 @@ public class StringInmutability {
 
         //pt a pute alimina spatiile facem ca mai sus =ori asignam ori afisam direct
         System.out.println(stringSix.trim());
+
+
     }
 }
