@@ -6,6 +6,7 @@ public class ClientUsage {
         Client clientOne = new Client();
         Client clientTwo = new Client();
 
+
         clientOne.setClientname("John");
         clientOne.setClientId(1);
         clientTwo.setClientname("John");
